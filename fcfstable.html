@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fcfs</title>
+    <link rel="stylesheet" href="styles/table.css" />
+  </head>
+  <body>
+    <header>
+      <h1>First Come First Serve Scheduling</h1>
+    </header>
+
+    <table class="tb" id="table">
+      <tr>
+        <th>Process id</th>
+        <th>Arrival Time</th>
+        <th>Burst Time</th>
+      </tr>
+      <tr>
+        <td>
+          <input type="number" min="0" class="process t" />
+        </td>
+        <td>
+          <input type="number" min="0" class="Arrival t" />
+        </td>
+        <td>
+          <input type="number" min="0" class="Burst t" />
+        </td>
+      </tr>
+      <div class="foot">
+        <button class="add btn" id="add">Add process</button>
+        <button class="delete btn" id="delete">Delete process</button>
+        <button class="Calculate btn" id="calculate">Calculate</button>
+      </div>
+    </table>
+    <table class="optable" id="output">
+      <h3
+        id="OO"
+        style="
+          display: inline-block;
+          position: relative;
+          visibility: hidden;
+          top: 31vh;
+          left: -86%;
+          font-size: 25px;
+        "
+      >
+        Output Table
+      </h3>
+
+      <tr>
+        <th>Process Id</th>
+        <th>Arrival Time</th>
+        <th>Burst Time</th>
+        <th>Waiting Time</th>
+        <th>TurnAround Time</th>
+      </tr>
+    </table>
+    <div class="show"></div>
+    <div class="charts"></div>
+
+    <script src="js/fcfs.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+  </body>
+</html>

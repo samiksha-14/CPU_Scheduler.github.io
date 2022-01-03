@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+body {
+  font-family: "Balsamiq Sans", cursive;
+  background-color: #f1f1f1;
+}
+h1 {
+  font-size: 4rem;
+  position: relative;
+  text-align: center;
+  color: #383627;
+}
+.tb {
+  display: inline-block;
+  position: relative;
+  /* background-color: #000000; */
+  background-color: #ffa69e;
+  background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+  top: 2vh;
+  border: hidden;
+  padding: 20px;
+  border-spacing: 19px;
+  font-size: larger;
+  left: -15%;
+  color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+}
+.t {
+  padding: 12px;
+  background-color: rgba(249, 252, 251, 0.938);
+  border: hidden;
+  border-radius: 10px;
+  width: 15em;
+}
+.foot {
+  display: inline-block;
+  left: 32%;
+  position: relative;
+  top: 5em;
+  color: black;
+  border-spacing: 2px;
+}
+.btn {
+  /* background-color: #000000;
+    padding: 8px;
+    border: navajowhite;
+    color: antiquewhite;
+    border-radius: 0px;
+    font-size: medium;
+    font-style: inherit;
+    border-radius: 10px;
+    width: 8rem;
+    cursor: pointer; */
+  font-style: inherit;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-right: 1em;
+  text-transform: uppercase;
+  color: #4b343e;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.optable {
+  visibility: hidden;
+  display: inline-block;
+  position: relative;
+  /* background-color: black; */
+  color: antiquewhite;
+  background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+  top: 13vh;
+  border: hidden;
+  padding: 4px;
+  border-spacing: 15px;
+  font-size: larger;
+
+  margin: 10% 15%;
+  left: -13%;
+}
+.optable td {
+  background-color: rgba(249, 252, 251, 0.938);
+  padding: 6px;
+  width: 10em;
+  color: rgb(29, 27, 25);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.show {
+  background-color: #93b788;
+  position: relative;
+  width: 24rem;
+  height: 19rem;
+  font-size: 28px;
+  left: 73%;
+  color: rgb(43, 38, 32);
+  padding: 7px;
+  top: -38vh;
+  visibility: hidden;
+  /* box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}

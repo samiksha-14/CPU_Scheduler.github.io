@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulator</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button class="user">User Guide</button>
+      <img src="icons\guide.png" class="guide" />
+      <section class="heading">
+        <h1>
+          CPU <br />
+          SCHEDULER <br />
+        </h1>
+        <img src="icons\interactive.png" class="icon" />
+      </section>
+      <section class="algorithms">
+        <button class="Non Preemptive">Non-Preemptive</button>
+        <ul class="Nonp">
+          <ol>
+            <a href="fcfstable.html" class="FCFS table"
+              >First Come First Serve</a
+            >
+          </ol>
+          <ol>
+            <a href="sjftable.html" class="SJF table headsjf" id="SJFTABLE"
+              >Shortest job first</a
+            >
+          </ol>
+          <ol>
+            <a href="Priority.html" class="PRS table">Priority Scheduling</a>
+          </ol>
+        </ul>
+        <button class="Preemptive" id="premp">Preemptive</button>
+        <ul class="preemp">
+          <ol>
+            <a href="srtf.html" class="SRTF table"
+              >Shortest Remaining Time First</a
+            >
+          </ol>
+          <ol>
+            <a href="Priorpreemp.html" class="PRS table"
+              >Priority Scheduling(Preemptive)</a
+            >
+          </ol>
+          <ol>
+            <a href="roundrobintable.html" class="RR table">Round Robin</a>
+          </ol>
+        </ul>
+        <img src="icons\right-arrow.png" class="arrow up" />
+        <img src="icons\right-arrow.png" class="arrow down" />
+      </section>
+      <div class="UserGuide visiblity">
+        <img src="icons\cross.png" class="close" />
+        <ul class="instruction">
+          <li>Select any CPU-Scheduling Algorithm.</li>
+          <li>
+            Enter the no. of process with their respective burst time,arrival
+            time and priority(in case of priority algorithms only) and Time
+            Quantum (in case of Round robin).Add or delete any process at any
+            time by just clicking the add or delete buttons.
+          </li>
+          <li>
+            Click the Calculate button, which result in displaying caculated
+            gantt chart and Time-Line Charts along with a final Table showing
+            Waiting Time,Response Time,Completion Time,Turn Around Time and CPU
+            Utilization of the algorithm.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="js/tablegenraljs.js"></script>
+    <!-- <script src="tablejs.js"></script> -->
+    <script src="js/window.js"></script>
+  </body>
+</html>

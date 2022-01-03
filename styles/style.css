@@ -1,0 +1,263 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+body {
+  background-color: #dddacb;
+  font-family: "Balsamiq Sans", cursive;
+}
+.container {
+  display: inline;
+}
+.heading {
+  font-size: 3.5rem;
+  position: absolute;
+  left: 3%;
+  top: 16vh;
+}
+.icon {
+  width: 5rem;
+  position: absolute;
+  left: 39%;
+  top: 11vh;
+}
+.algorithms {
+  background-color: #5e594a;
+  display: inline-block;
+  height: 64%;
+  position: absolute;
+  width: 49%;
+  padding: 22px;
+  left: 39%;
+  top: 19vh;
+  border-radius: 18px;
+  box-shadow: 0 3px 14px 14px rgb(0 0 0 / 20%);
+}
+.Preemptive {
+  color: #0f1f19;
+  padding: 4px;
+  border: hidden;
+  width: 14em;
+  height: 3em;
+  position: absolute;
+  left: -7%;
+  top: 11vh;
+  font-weight: bolder;
+  font-size: 22px;
+  border-radius: 38px;
+  background: #dddacb;
+  cursor: pointer;
+  font-family: inherit;
+}
+.Non {
+  position: absolute;
+  left: -7%;
+  top: 43vh;
+  font-family: inherit;
+}
+.user {
+  color: #151918;
+  padding: 4px;
+  border: hidden;
+  width: 9em;
+  height: 2em;
+  position: absolute;
+  left: 77%;
+  top: 3vh;
+  font-size: 24px;
+  border-radius: 12px;
+  background: #d69536;
+  cursor: pointer;
+  font-family: inherit;
+}
+.guide {
+  width: 3rem;
+  position: absolute;
+  left: 73%;
+  top: 3vh;
+}
+.up {
+  width: 4rem;
+  position: absolute;
+  left: 28%;
+  top: 11vh;
+}
+.down {
+  width: 4rem;
+  position: absolute;
+  left: 29%;
+  top: 43vh;
+}
+.preemp {
+  color: aliceblue;
+  display: inline-block;
+  position: absolute;
+  left: 37%;
+  top: 13%;
+  font-weight: 700;
+  font-size: 27px;
+}
+.Nonp {
+  color: aliceblue;
+  display: inline-block;
+  position: absolute;
+  left: 37%;
+  top: 53%;
+  font-weight: 700;
+  font-size: 27px;
+  list-style-type: circle;
+}
+.table {
+  color: #d8ab69;
+}
+.UserGuide {
+  display: flex;
+  color: #969be9;
+  justify-content: flex-end;
+  position: relative;
+  left: 23%;
+  margin-right: 50%;
+  top: 12vh;
+  height: 57vh;
+  padding: 3em;
+  background: #57764e;
+  z-index: 10;
+}
+.close {
+  cursor: pointer;
+  height: 2rem;
+  left: 93%;
+  position: absolute;
+  bottom: 29em;
+}
+.visiblity {
+  display: none;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+.hidden {
+  display: none;
+}
+.instruction {
+  position: absolute;
+  top: 19vh;
+  border-spacing: revert;
+  font-size: larger;
+  color: #dddacb;
+}
+/* below is for minimum 1280 */
+@media screen and (max-width: 1480px) {
+  .heading {
+    font-size: 44px;
+  }
+  .icon {
+    top: 30vh;
+  }
+  .up {
+    opacity: 0%;
+  }
+  .down {
+    opacity: 0%;
+  }
+  .preemp {
+    font-size: 23px;
+  }
+  .Nonp {
+    font-size: 23px;
+  }
+  .user {
+    width: 7.5em;
+    height: 2em;
+    top: 6vh;
+    font-size: 22px;
+  }
+  .guide {
+    width: 2rem;
+    top: 7vh;
+    left: 70%;
+  }
+}
+/* ///media queries for mobile phones */
+@media screen and (max-width: 550px) {
+  .heading {
+    font-size: 20px;
+    top: 4vh;
+    left: 11%;
+  }
+  .icon {
+    top: 16vh;
+    width: 2rem;
+  }
+  .up {
+    opacity: 0%;
+  }
+  .down {
+    opacity: 0%;
+  }
+  .preemp {
+    font-size: 12px;
+  }
+  .Nonp {
+    font-size: 12px;
+  }
+  .user {
+    width: 6em;
+    height: 2em;
+    top: 3vh;
+    font-size: 12px;
+  }
+  .guide {
+    width: 1.3rem;
+    top: 3vh;
+    left: 70%;
+  }
+  .algorithms {
+    top: 28vh;
+    left: 30%;
+  }
+  .Preemptive {
+    width: 8em;
+    height: 2em;
+    font: 16px;
+    left: 15%;
+    top: 2vh;
+  }
+  .Non {
+    left: 15%;
+    top: 38vh;
+  }
+  .algorithms {
+    width: 66%;
+    top: 28vh;
+    left: 14%;
+  }
+  .preemp {
+    left: -21%;
+    font-size: 21px;
+    top: 20%;
+  }
+  .Nonp {
+    left: -21%;
+    top: 67%;
+    font-size: 22px;
+  }
+  .UserGuide {
+    left: 10%;
+    margin-right: 18%;
+  }
+  .instruction {
+    top: 11vh;
+    font-size: 15px;
+  }
+  .close {
+    bottom: 63vh;
+    left: 85%;
+  }
+}
